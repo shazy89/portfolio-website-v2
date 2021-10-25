@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 // markup
-const HomePage = () => {
+const App = () => {
   return (
     <main>
       <h1>Hello There</h1>
@@ -9,4 +9,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default App;
