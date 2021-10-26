@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -23,6 +24,7 @@ module.exports = {
       options: {
         name: `Erdoan Shaziman's portfolio webste`,
         short_name: `Portfolio Website`,
+        lang: `en`,
         start_url: `/`,
         icon: `src/images/favicon-32x32.png`,
         cache_busting_mode: 'none',

@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { App } from '../components/app';
-// markup
+import '../style/main.scss';
+// markup]
 const indexPage = () => {
   return (
     <>
