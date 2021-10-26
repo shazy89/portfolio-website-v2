@@ -1,12 +1,19 @@
 import * as React from 'react';
-
+import { Helmet } from 'react-helmet';
+import { App } from '../components/app';
 // markup
-const App = () => {
+const indexPage = () => {
   return (
-    <main>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{'Progress' || 'Gatsby Simplefolio'}</title>
+        <html lang={'en' || 'en'} />
+        <meta name="description" content={'My Site' || 'Gatsby Simplefolio'} />
+      </Helmet>
       <h1>Hello There</h1>
-    </main>
+    </>
   );
 };
 
-export default App;
+export default indexPage;

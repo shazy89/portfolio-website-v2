@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const header = () => {
+export const app = () => {
   return <div></div>;
 };
