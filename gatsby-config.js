@@ -30,6 +30,11 @@ module.exports = {
         cache_busting_mode: 'none',
         display: `standalone`,
       },
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Zen Old Mincho`],
+        display: 'swap',
+      },
     },
   ],
 };
