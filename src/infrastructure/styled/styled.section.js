@@ -2,11 +2,6 @@ import React from 'react';
 import styled, { useTheme } from 'styled-components';
 import { images } from '../../components/assets/image.links';
 
-export const SectionBox = styled.div`
-  height: 767px;
-  width: 100%;
-`;
-
 export const SectionView = styled.div`
   background-image: url(${({ backgroundImage }) => backgroundImage || 'none'});
   height: 767px;
