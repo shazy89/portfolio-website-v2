@@ -1,10 +1,17 @@
 import React from 'react';
-import { SectionBackground } from '../../../infrastructure/styled/styled.section';
-import { Section } from '../../HORComponents/section';
+import styled from 'styled-components';
+import { SideNav } from '../../layout/side nav/side.nav';
+
+const HeaderContainer = styled.header`
+  height: 100%;
+  position: relative;
+  display: flex;
+`;
+
 export const Header = () => {
   return (
-    <header>
-      <h1>HEY THERE</h1>
-    </header>
+    <HeaderContainer>
+      <SideNav />
+    </HeaderContainer>
   );
 };
