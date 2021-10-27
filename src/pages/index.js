@@ -7,7 +7,7 @@ import '../style/main.scss';
 import {
   HeaderSectionBox,
   SectionBackground,
-} from '../infrastructure/styled/styled.section.box';
+} from '../infrastructure/styled/styled.section';
 import { Spacer } from '../components/spacer/spacer.component';
 // markup]
 const indexPage = () => {

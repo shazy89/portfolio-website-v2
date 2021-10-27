@@ -1,5 +1,10 @@
 import React from 'react';
-import { header } from './header/header';
+import { Header } from './header/header';
+
 export const index = () => {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
