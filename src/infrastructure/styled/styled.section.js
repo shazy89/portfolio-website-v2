@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { useTheme } from 'styled-components';
+import styled from 'styled-components';
 import { images } from '../../components/assets/image.links';
 
 export const SectionView = styled.div`
