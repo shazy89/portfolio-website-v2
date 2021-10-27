@@ -14,8 +14,23 @@ export const SectionView = styled.div`
   background-position: top;
   position: relative;
 `;
+export const SectionViewHeader = styled.div`
+  background-image: linear-gradient(#2f2f2f54, #2f2f2f94),
+    url(${({ backgroundImage }) => backgroundImage || 'none'});
+  height: 767px;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+`;
 
-export const SectionBackground = ({ backgroundImage, children }) => {
+export const SectionBackground = ({ backgroundImage, children, section }) => {
+  if (section === 'header') {
+    return (
+      <SectionViewHeader backgroundImage={backgroundImage}>
+        {children}
+      </SectionViewHeader>
+    );
+  }
   return (
     <SectionView backgroundImage={backgroundImage}>{children}</SectionView>
   );
@@ -23,4 +38,5 @@ export const SectionBackground = ({ backgroundImage, children }) => {
 
 SectionBackground.defaultProps = {
   backgroundImage: images.background.header,
+  section: 'header',
 };
