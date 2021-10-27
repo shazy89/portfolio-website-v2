@@ -10,7 +10,7 @@ export const SectionView = styled.div`
   position: relative;
 `;
 export const SectionViewHeader = styled.div`
-  background-image: linear-gradient(#2f2f2f54, #2f2f2f94),
+  background-image: linear-gradient(#2f2f2fc4, #2f2f2f61),
     url(${({ backgroundImage }) => backgroundImage || 'none'});
   height: 767px;
   background-size: cover;

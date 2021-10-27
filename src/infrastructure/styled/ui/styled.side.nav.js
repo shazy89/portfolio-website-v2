@@ -7,7 +7,7 @@ const SideNavContainerDiv = styled.div`
   display: flex;
   align-items: center;
 `;
-const SideNavView = styled.div`
+const SideNavView = styled.nav`
   background-color: rgb(255 255 255 / 70%);
   height: 330px;
   width: 100%;
@@ -15,15 +15,29 @@ const SideNavView = styled.div`
   position: relative;
 `;
 const SideNavUl = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   list-style: none;
+  height: inherit;
   margin: 0;
   padding: 0;
   max-width: none;
 `;
 
-export const SideNavList = styled.li`
-  color: ${({ color }) => color};
-  font-size: ${({ fontSize }) => fontSize};
+export const SideNavLink = styled.a`
+  color: #2f2f2f;
+  font-size: 25px;
+  transition: all 0.1s;
+  ::after {
+    transition: transform 0.2s ease-in-out;
+  }
+  :hover {
+    border-bottom: 3px solid #fcbf49;
+
+    cursor: pointer;
+  }
 `;
 
 export const SideNavContainer = ({ children }) => {
