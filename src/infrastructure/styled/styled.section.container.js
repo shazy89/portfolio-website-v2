@@ -2,22 +2,23 @@ import React from 'react';
 import styled, { useTheme } from 'styled-components';
 import { images } from '../../components/assets/image.links';
 
-const theme = useTheme();
-
 export const SectionContainerView = styled.div`
   height: 100%;
-  width: 1365px;
+  max-width: 1365px;
+  margin: 0 auto;
 `;
 export const SectionContainerViewBackgroundGrey = styled.div`
   height: 100%;
-  width: 1365px;
-  background-color: ${theme.colors.gray.main};
+  max-width: 1365px;
+  background-color: ${({ color }) => color};
+  margin: 0 auto;
 `;
 
 export const SectionContainer = ({ section, children }) => {
+  const theme = useTheme();
   if (section === 'achievements' || section === 'portfolio') {
     return (
-      <SectionContainerViewBackgroundGrey>
+      <SectionContainerViewBackgroundGrey color={theme.colors.gray.main}>
         {children}
       </SectionContainerViewBackgroundGrey>
     );
@@ -25,6 +26,6 @@ export const SectionContainer = ({ section, children }) => {
   return <SectionContainerView>{children}</SectionContainerView>;
 };
 
-SectionBackground.defaultProps = {
+SectionContainer.defaultProps = {
   section: 'header',
 };

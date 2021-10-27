@@ -1,14 +1,13 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
+import { theme } from '../infrastructure/theme';
 import { App } from '../components/app';
 import styled, { ThemeProvider } from 'styled-components';
-import { theme } from '../infrastructure/theme';
+
 import '../style/main.scss';
-import {
-  HeaderSectionBox,
-  SectionBackground,
-} from '../infrastructure/styled/styled.section';
+
 import { Spacer } from '../components/spacer/spacer.component';
+import { HomePage } from '../components/sections';
 // markup]
 const indexPage = () => {
   return (
@@ -19,7 +18,7 @@ const indexPage = () => {
         <html lang={'en' || 'en'} />
         <meta name="description" content={'My Site' || 'Gatsby Simplefolio'} />
       </Helmet>
-      <SectionBackground></SectionBackground>
+      <HomePage />
     </ThemeProvider>
   );
 };
