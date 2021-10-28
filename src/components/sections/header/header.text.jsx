@@ -2,8 +2,8 @@ import React from 'react'
 
 export const HeaderTextPrimary = () => {
     return (
-        <div>
+        <h1>
             
-        </div>
+        </h1>
     )
 }
