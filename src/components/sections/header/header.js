@@ -7,6 +7,7 @@ const HeaderContainer = styled.header`
   height: 100%;
   position: relative;
   display: flex;
+  padding: 1rem;
 `;
 
 export const Header = () => {

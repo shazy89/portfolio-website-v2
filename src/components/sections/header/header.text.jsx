@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const HeaderText = () => {
+export const HeaderTextPrimary = () => {
     return (
         <div>
             
