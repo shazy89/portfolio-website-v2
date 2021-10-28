@@ -4,10 +4,10 @@ import { SideNavLink as Link } from '../../../infrastructure/styled/ui/styled.si
 
 export const SideNavLink = ({ children }) => {
   const theme = useTheme();
-  console.log(theme);
+
   return (
     <li>
-      <Link className="link" to="#">
+      <Link className="link" to="/#">
         {' '}
         {children}
       </Link>

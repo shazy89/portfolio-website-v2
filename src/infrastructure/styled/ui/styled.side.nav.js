@@ -30,12 +30,9 @@ export const SideNavLink = styled.a`
   color: #2f2f2f;
   font-size: 25px;
   transition: all 0.1s;
-  ::after {
-    transition: transform 0.2s ease-in-out;
-  }
+
   :hover {
     border-bottom: 3px solid #fcbf49;
-
     cursor: pointer;
   }
 `;
