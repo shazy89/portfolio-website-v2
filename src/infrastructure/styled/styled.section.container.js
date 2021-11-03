@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, { useTheme } from 'styled-components';
-import { images } from '../../components/assets/image.links';
 
 export const SectionContainerView = styled.div`
   height: 100%;
