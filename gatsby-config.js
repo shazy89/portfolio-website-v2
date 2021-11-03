@@ -27,7 +27,7 @@ module.exports = {
         lang: `en`,
         start_url: `/`,
         icon: `src/images/favicon-32x32.png`,
-        cache_busting_mode: 'none',
+
         display: `standalone`,
       },
       resolve: `gatsby-plugin-google-fonts`,

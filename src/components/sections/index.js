@@ -4,7 +4,7 @@ import { Achievements } from './achievements/achievements';
 import { Section } from '../HORComponents/section';
 import { images } from '../assets/image.links';
 import { Spacer } from '../spacer/spacer.component';
-import combo from '../../infrastructure/styled/assets/combo.svg';
+
 export const HomePage = () => {
   return (
     <>
@@ -12,10 +12,17 @@ export const HomePage = () => {
         <Header />
       </Section>
       <Spacer size="xxl" />
-      <Section section="achievements" backgroundImage={combo}>
+      <Section
+        section="achievements"
+        backgroundImage="https://res.cloudinary.com/dytheecsk/image/upload/v1635943746/portfolio%20v2/Group_46_g3zlwz.svg"
+      >
         <Achievements />
       </Section>
-
+      <Spacer size="xxl" />
+      <Spacer size="xxl" />
+      <Section section="portfolio">
+        <Achievements />
+      </Section>
       <Spacer size="xxl" />
     </>
   );
