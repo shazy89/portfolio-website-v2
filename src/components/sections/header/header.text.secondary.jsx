@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { Text } from '../../../infrastructure/styled/ui/styled.text';
 import { Border } from '../../../infrastructure/styled/ui/styled.border';
 import { Button } from '../../../infrastructure/styled/ui/styled.button';
-import Icon from '../../../infrastructure/styled/assets/arrow-bottom.svg'; //arrow-bottom.svg
+
 const TextSecondaryBox = styled.div`
   padding: 1rem;
   width: 29.5rem;
-  line-height: 1.4;
+  line-height: 1.2;
   position: absolute;
   top: 101px;
   right: 30px;
