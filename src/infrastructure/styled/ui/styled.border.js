@@ -32,7 +32,7 @@ const SideBorders = styled.div`
 `;
 
 export const Border = ({ position, size, color, edge }) => {
-  const theme = useTheme();
+  //const theme = useTheme();
   if (position === 'top' || position === 'bottom') {
     return <BorderTopOrBottom position={position} size={size} edge={edge} />;
   }

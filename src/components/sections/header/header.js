@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { SideNav } from '../../layout/side nav/side.nav';
 import { LogoIcon } from './LogoIcon';
-import { HeaderTextPrimary } from './header.text';
-
+import { HeaderTextPrimary } from './header.text.primary';
+import { HeaderTextSecondary } from './header.text.secondary';
 const HeaderContainer = styled.header`
   height: 100%;
   position: relative;
@@ -23,6 +23,7 @@ export const Header = () => {
       <SideNav />
       <HeaderTextBox>
         <HeaderTextPrimary />
+        <HeaderTextSecondary />
       </HeaderTextBox>
     </HeaderContainer>
   );

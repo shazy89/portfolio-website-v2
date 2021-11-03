@@ -2,6 +2,7 @@ import React from 'react';
 import { Text } from '../../../infrastructure/styled/ui/styled.text';
 import styled, { useTheme } from 'styled-components';
 import { BorderBottom } from '../../../infrastructure/styled/ui/styled.text.border';
+
 const TextPrimaryBox = styled.div`
   width: 50%;
   line-height: 1.4;
