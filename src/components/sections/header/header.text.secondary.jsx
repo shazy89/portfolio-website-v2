@@ -7,7 +7,7 @@ import Icon from '../../../infrastructure/styled/assets/arrow-bottom.svg'; //arr
 const TextSecondaryBox = styled.div`
   padding: 1rem;
   width: 29.5rem;
-  line-height: 1.4;
+  line-height: 1.2;
   position: absolute;
   top: 101px;
   right: 30px;

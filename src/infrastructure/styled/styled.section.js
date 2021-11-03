@@ -26,12 +26,12 @@ export const SectionBackground = ({ backgroundImage, children, section }) => {
       </SectionViewHeader>
     );
   }
+
   return (
     <SectionView backgroundImage={backgroundImage}>{children}</SectionView>
   );
 };
 
 SectionBackground.defaultProps = {
-  backgroundImage: images.background.header,
   section: 'header',
 };

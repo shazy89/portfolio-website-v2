@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const achievements = () => {
-  return <div></div>;
+export const Achievements = () => {
+  return <div>ACH</div>;
 };
