@@ -14,6 +14,7 @@ const CardView = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   :hover {
     background-color: #2f2f2fd4;
   }
@@ -55,5 +56,4 @@ export const Card = ({ children, cardLine, icon: Icon, header }) => {
 
 Card.defaultProps = {
   cardLine: true,
-  icon: '',
 };
