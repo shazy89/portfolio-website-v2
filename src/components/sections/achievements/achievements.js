@@ -1,8 +1,6 @@
 import React from 'react';
-import { Card } from '../../layout/shared/card/styled';
+import { CardSection } from './CardSection';
 import styled from 'styled-components';
-
-import Arrows from '../../../infrastructure/styled/assets/arrows.svg';
 
 const Spacer = styled.div`
   height: 80px;
@@ -12,8 +10,7 @@ export const Achievements = () => {
   return (
     <div>
       <Spacer />
-
-      <Card icon={Arrows}>Hey There</Card>
+      <CardSection />
     </div>
   );
 };
