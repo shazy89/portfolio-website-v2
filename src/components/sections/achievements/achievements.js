@@ -3,7 +3,7 @@ import { Card } from '../../layout/shared/card/styled';
 import styled from 'styled-components';
 
 const Spacer = styled.div`
-  height: 100px;
+  height: 80px;
 `;
 
 export const Achievements = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const SectionView = styled.div`
-  background-image: url(${({ backgroundImage }) => backgroundImage || 'none'});
+  background-image: url(${({ backgroundImage }) => backgroundImage});
   height: 767px;
   background-size: cover;
   background-position: top;
@@ -11,7 +11,7 @@ export const SectionView = styled.div`
 
 export const SectionViewHeader = styled.div`
   background-image: linear-gradient(#2f2f2fc4, #2f2f2f61),
-    url(${({ backgroundImage }) => backgroundImage || 'unset'});
+    url(${({ backgroundImage }) => backgroundImage});
   height: 767px;
   background-size: cover;
   background-position: top;

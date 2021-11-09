@@ -20,7 +20,7 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
-    },as
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
