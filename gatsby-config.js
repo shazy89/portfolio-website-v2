@@ -20,7 +20,7 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
-    },
+    },as
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -53,7 +53,8 @@ module.exports = {
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        prefix: `gatsby-source-cloudinary/`,
+        prefix: `portfolio v2`,
+        uploadFolder: 'portfolio v2',
       },
     },
   ],
