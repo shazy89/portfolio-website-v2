@@ -1,4 +1,3 @@
-import React from 'react';
 import arrows from '../../../infrastructure/styled/assets/arrows.svg';
 import achievements from '../../../infrastructure/styled/assets/achievements.svg';
 import gitHub from '../../../infrastructure/styled/assets/github.svg';
