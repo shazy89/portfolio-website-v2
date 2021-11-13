@@ -11,13 +11,13 @@ const SkillsIconContainer = styled.div`
 `;
 export const Achievements = () => {
   return (
-    <div>
+    <>
       <Spacer space={80} />
       <CardSection />
       <Spacer space={40} />
       <SkillsIconContainer>
         <Skills />
       </SkillsIconContainer>
-    </div>
+    </>
   );
 };

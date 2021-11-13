@@ -4,6 +4,7 @@ import { Achievements } from './achievements/achievements';
 import { Section } from '../HORComponents/section';
 import { images } from '../assets/image.links';
 import { Spacer } from '../spacer/spacer.component';
+import { Portfolio } from './portfolio/portfolio';
 
 export const HomePage = () => {
   return (
@@ -21,7 +22,7 @@ export const HomePage = () => {
       <Spacer size="xxl" />
       <Spacer size="xxl" />
       <Section section="portfolio">
-        <Achievements />
+        <Portfolio />
       </Section>
       <Spacer size="xxl" />
     </>
