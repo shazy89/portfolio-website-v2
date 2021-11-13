@@ -34,6 +34,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_306/v1625073666/projects/Screen_Shot_2021-06-30_at_7.16.26_PM_nxervm.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_300/v1625076618/projects/Screen_Shot_2021-06-30_at_7.15.42_PM_bwbzic.png',
     ],
+    publicId: 'projects/Screen_Shot_2021-06-30_at_7.16.01_PM_pzqi1o.png',
   },
   {
     id: 2,

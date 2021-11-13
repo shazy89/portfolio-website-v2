@@ -7,6 +7,6 @@ const DividedScreenBox = styled.div`
   padding: 5px;
 `;
 
-export const DividedScreen = ({ childrn }) => {
-  return <DividedScreenBox>{childrn}</DividedScreenBox>;
+export const DividedScreen = ({ children }) => {
+  return <DividedScreenBox>{children}</DividedScreenBox>;
 };
