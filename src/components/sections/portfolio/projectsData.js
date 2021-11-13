@@ -35,6 +35,8 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_300/v1625076618/projects/Screen_Shot_2021-06-30_at_7.15.42_PM_bwbzic.png',
     ],
     publicId: 'projects/Screen_Shot_2021-06-30_at_7.16.01_PM_pzqi1o.png',
+    altText:
+      'culinas home screen, includes data about clients and dynamic charts',
   },
   {
     id: 2,
@@ -71,6 +73,9 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_400/v1626267861/projects/Screen_Shot_2021-07-14_at_3.03.48_PM_wyc8kb.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_400/v1625073667/projects/Screen_Shot_2021-06-30_at_7.16.39_PM_rksstt.png',
     ],
+    publicId: 'projects/Screen_Shot_2021-07-14_at_3.03.48_PM_wyc8kb.png',
+    altText:
+      'rfuw product page includes a background image, rfuw logo and information about the productst',
   },
 
   {
@@ -112,6 +117,8 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120212/portfolio/rm3_vgeuvx.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120194/portfolio/rm1_dpkrja.png',
     ],
+    publicId: 'Screen_Shot_2021-01-09_at_12.35.15_PM_zxwj2y.png',
+    altText: 'rent me home screen and the mobile screen images',
   },
   {
     id: 6,
@@ -148,6 +155,35 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1607092844/portfolio/Screen_Shot_2020-12-02_at_2.16.17_PM_i3zicb.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1607092846/portfolio/Screen_Shot_2020-12-02_at_2.16.32_PM_jgwlme.png',
     ],
+    publicId: 'portfolio/Screen_Shot_2020-12-02_at_2.16.06_PM_rctf76.png',
+    altText:
+      'friend user screen, includes user image, chat section and displays all the connections',
+  },
+  {
+    id: 5,
+    name: 'OneTouch',
+    github: 'https://github.com/shazy89/One-Touch',
+    mobGithub: '',
+    demo: 'https://www.youtube.com/embed/JYbe-mDsMcU',
+    webApp: null,
+    info: `Management system that restaurants use to efficiently manage guests through the entire dining experience. It gives
+              managers the tools to turn tables faster and reduce errors.`,
+    technologies: [
+      'Ruby on Rails',
+      'HTML',
+      'CSS',
+      'Active Record',
+      'PostgreSQL',
+    ],
+    technologiesForIcons: ['rubyonrails', 'html', 'css', 'postgresql'],
+    imgs: [
+      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120248/portfolio/ot3_vjnp1a.png',
+      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120241/portfolio/ot2_stmumv.png',
+      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120233/portfolio/ot1_x11h5a.png',
+    ],
+    publicId: 'portfolio/ot3_vjnp1a.png',
+    altText:
+      'oneTouch products page includes a list of products with there prices',
   },
   {
     id: 4,
@@ -177,28 +213,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120172/portfolio/fm2_ouxhqp.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605119995/portfolio/fm1_p1oqsy.png',
     ],
-  },
-  {
-    id: 5,
-    name: 'OneTouch',
-    github: 'https://github.com/shazy89/One-Touch',
-    mobGithub: '',
-    demo: 'https://www.youtube.com/embed/JYbe-mDsMcU',
-    webApp: null,
-    info: `Management system that restaurants use to efficiently manage guests through the entire dining experience. It gives
-              managers the tools to turn tables faster and reduce errors.`,
-    technologies: [
-      'Ruby on Rails',
-      'HTML',
-      'CSS',
-      'Active Record',
-      'PostgreSQL',
-    ],
-    technologiesForIcons: ['rubyonrails', 'html', 'css', 'postgresql'],
-    imgs: [
-      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120248/portfolio/ot3_vjnp1a.png',
-      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120241/portfolio/ot2_stmumv.png',
-      'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120233/portfolio/ot1_x11h5a.png',
-    ],
+    publicId: 'portfolio/fm2_ouxhqp.png',
+    altText: 'Football Masters modal',
   },
 ];

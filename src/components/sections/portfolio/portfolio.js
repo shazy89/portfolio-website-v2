@@ -22,9 +22,9 @@ export const Portfolio = () => {
 
   return (
     <PortfolioContainer>
-      <DisplayProjects />
-      <ScreenDivider color={theme.colors.orange.main} />
       <ProjectDetails />
+      <ScreenDivider color={theme.colors.orange.main} />
+      <DisplayProjects />
     </PortfolioContainer>
   );
 };

@@ -1,11 +1,19 @@
 import React from 'react';
-import { Image, Transformation, CloudinaryContext } from 'cloudinary-react';
-import { projects } from '../../sections/portfolio/projectsData';
+import { Image, Transformation } from 'cloudinary-react';
 
-export const PortfolioImage = ({ width }) => {
+export const PortfolioImage = ({ width, publicId, altTex }) => {
   return (
-    <Image cloudName="dytheecsk" publicId={projects[0].publicId}>
-      <Transformation width="300" gravity="south" crop="scale" />
+    <Image
+      style={{ height: '160px' }}
+      width={width}
+      alt={altTex}
+      cloudName="dytheecsk"
+      publicId={publicId}
+    >
+      <Transformation width={width} gravity="south" crop="scale" />
     </Image>
   );
+};
+PortfolioImage.defaultProps = {
+  width: 300,
 };
