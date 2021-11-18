@@ -34,7 +34,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_306/v1625073666/projects/Screen_Shot_2021-06-30_at_7.16.26_PM_nxervm.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_300/v1625076618/projects/Screen_Shot_2021-06-30_at_7.15.42_PM_bwbzic.png',
     ],
-    publicId: 'projects/Screen_Shot_2021-06-30_at_7.16.01_PM_pzqi1o.png',
+    publicId: 'portfolio%20v2/Culina_2x_vitnwb.jpg',
     altText:
       'culinas home screen, includes data about clients and dynamic charts',
   },
@@ -73,7 +73,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_400/v1626267861/projects/Screen_Shot_2021-07-14_at_3.03.48_PM_wyc8kb.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_400/v1625073667/projects/Screen_Shot_2021-06-30_at_7.16.39_PM_rksstt.png',
     ],
-    publicId: 'projects/Screen_Shot_2021-07-14_at_3.03.48_PM_wyc8kb.png',
+    publicId: 'portfolio%20v2/RFuW_black_and_white_2x_g86pq7.jpg',
     altText:
       'rfuw product page includes a background image, rfuw logo and information about the productst',
   },
@@ -117,7 +117,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120212/portfolio/rm3_vgeuvx.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120194/portfolio/rm1_dpkrja.png',
     ],
-    publicId: 'Screen_Shot_2021-01-09_at_12.35.15_PM_zxwj2y.png',
+    publicId: 'portfolio%20v2/Cars_black_and_white_2x_xk5o8k.jpg',
     altText: 'rent me home screen and the mobile screen images',
   },
   {
@@ -155,7 +155,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1607092844/portfolio/Screen_Shot_2020-12-02_at_2.16.17_PM_i3zicb.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1607092846/portfolio/Screen_Shot_2020-12-02_at_2.16.32_PM_jgwlme.png',
     ],
-    publicId: 'portfolio/Screen_Shot_2020-12-02_at_2.16.06_PM_rctf76.png',
+    publicId: 'portfolio%20v2/black_white_-_frinds_2x_fyvrry.jpg',
     altText:
       'friend user screen, includes user image, chat section and displays all the connections',
   },
@@ -181,7 +181,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120241/portfolio/ot2_stmumv.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120233/portfolio/ot1_x11h5a.png',
     ],
-    publicId: 'portfolio/ot3_vjnp1a.png',
+    publicId: 'portfolio%20v2/OneTouch_2x_hwd2v7.jpg',
     altText:
       'oneTouch products page includes a list of products with there prices',
   },
@@ -213,7 +213,7 @@ export const projects = [
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605120172/portfolio/fm2_ouxhqp.png',
       'https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_200/v1605119995/portfolio/fm1_p1oqsy.png',
     ],
-    publicId: 'portfolio/fm2_ouxhqp.png',
+    publicId: 'portfolio%20v2/FbMasters_2x_glrayb.jpg',
     altText: 'Football Masters modal',
   },
 ];
