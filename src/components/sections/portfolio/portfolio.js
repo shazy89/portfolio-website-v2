@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { useTheme } from 'styled-components';
 import { DisplayProjects } from './displayProjects';
-import { ProjectDetails } from './projectDetails';
+import { ProjectDetails } from './details/projectDetails';
 
 const PortfolioContainer = styled.div`
   width: 100%;
