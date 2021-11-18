@@ -1,11 +1,11 @@
 import React from 'react';
-import styled, { useTheme } from 'styled-components';
-import { DividedScreen } from '../dividedScreen';
-import { StaticImage } from 'gatsby-plugin-image';
-import { projects } from '../projectsData';
-import { PortfolioImage } from '../../../layout/shared/PortfolioImage';
 
-export const ProjectDetails = () => {
+import { DividedScreen } from '../dividedScreen';
+import { projects } from '../projectsData';
+
+export const ProjectDetails = ({ selectedImg }) => {
+  const slected = projects.find((project) => project.id === selectedImg);
+  console.log(slected);
   return (
     <DividedScreen screen="projectDetails">
       <h1>More about the project</h1>
