@@ -25,7 +25,10 @@ export const Portfolio = () => {
     <PortfolioContainer>
       <ProjectDetails selectedImg={selectedImg} />
       <ScreenDivider color={theme.colors.orange.main} />
-      <DisplayProjects selectedImg={selectedImg} />
+      <DisplayProjects
+        selectedImg={selectedImg}
+        setSelectedImg={setSelectedImg}
+      />
     </PortfolioContainer>
   );
 };
