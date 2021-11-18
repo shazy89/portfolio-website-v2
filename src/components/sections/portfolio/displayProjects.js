@@ -11,7 +11,8 @@ export const DisplayProjects = ({ setSelectedImg, selectedImg }) => {
       key={project.id}
       publicId={project.publicId}
       altTex={project.altText}
-      setSelectedImg={project.id == selectedImg ? true : false}
+      selectedImg={project.id == selectedImg ? true : false}
+      setSelectedImg={setSelectedImg}
     />
   ));
 

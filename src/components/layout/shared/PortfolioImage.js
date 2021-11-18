@@ -4,12 +4,13 @@ import styled from 'styled-components';
 import { useTheme } from 'styled-components';
 
 const ExtendedImage = styled(Image)`
-  transition: all 0.1s ease;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   :hover {
     transform: scale(1.02);
     border-right: 3px solid ${(props) => props.color};
     border-bottom: 3px solid ${(props) => props.color};
+    opacity: 0.8;
   }
 `;
 const SelectedImage = styled(Image)`
@@ -18,21 +19,23 @@ const SelectedImage = styled(Image)`
   transform: scale(1.02);
   border-right: 3px solid ${(props) => props.color};
   border-bottom: 3px solid ${(props) => props.color};
+  opacity: 0.8;
 `;
 
 export const PortfolioImage = ({
-  setSelectedImg,
+  selectedImg,
   width,
   height,
   publicId,
   altTex,
   id,
+  setSelectedImg,
 }) => {
   const theme = useTheme();
 
   return (
     <>
-      {setSelectedImg ? (
+      {selectedImg ? (
         <SelectedImage
           color={theme.colors.orange.main}
           id={id}
@@ -53,6 +56,7 @@ export const PortfolioImage = ({
           width={width}
           alt={altTex}
           cloudName="dytheecsk"
+          onClick={() => setSelectedImg(id)}
           publicId={publicId}
         >
           <Transformation width={width * 2} crop="scale" />
