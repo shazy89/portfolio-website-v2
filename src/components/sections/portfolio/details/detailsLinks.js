@@ -18,7 +18,19 @@ const ImageView = styled(Image)`
   align-self: center;
 `;
 
-export const DetailsLinks = ({ publicId, width, height }) => {
+const LinkList = styled.ul`
+  list-style: none;
+  display: flex;
+`;
+
+export const DetailsLinks = ({
+  publicId,
+  width,
+  height,
+  webApp,
+  demo,
+  github,
+}) => {
   return (
     <DetailsLinksBox>
       <ImageView
@@ -29,9 +41,11 @@ export const DetailsLinks = ({ publicId, width, height }) => {
       >
         <Transformation width={width * 2} crop="scale" />
       </ImageView>
-      <ul>
-        <Link>Website</Link>
-      </ul>
+      <LinkList>
+        {webApp && <Link link={webApp}>Website</Link>}
+        {demo && <Link link={demo}>Demo</Link>}
+        {github && <Link link={github}>GitHub</Link>}
+      </LinkList>
     </DetailsLinksBox>
   );
 };
