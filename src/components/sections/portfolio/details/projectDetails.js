@@ -4,10 +4,10 @@ import { DividedScreen } from '../dividedScreen';
 import { projects } from '../projectsData';
 import { DetailsHeader } from './detailsHeader';
 import { DetailsLinks } from './detailsLinks';
-
+import { DetailsContent } from './detailsContent';
 export const ProjectDetails = ({ selectedImg }) => {
   const slectedProject = projects.find((project) => project.id === selectedImg);
-  console.log(slectedProject);
+
   return (
     <DividedScreen screen="projectDetails">
       <DetailsHeader>{slectedProject.name}</DetailsHeader>
@@ -16,8 +16,10 @@ export const ProjectDetails = ({ selectedImg }) => {
         webApp={slectedProject.webApp}
         demo={slectedProject.demo}
         github={slectedProject.github}
-        technologies={slectedProject.technologies}
       />
+      <DetailsContent technologies={slectedProject.technologies}>
+        {slectedProject.info}
+      </DetailsContent>
     </DividedScreen>
   );
 };

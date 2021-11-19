@@ -13,7 +13,6 @@ const DividedScreenBox = styled.div`
 const ScreenProjectDetails = styled.div`
   width: 50%;
   height: 90%;
-  padding: 5px;
 `;
 
 export const DividedScreen = ({ children, screen }) => {
