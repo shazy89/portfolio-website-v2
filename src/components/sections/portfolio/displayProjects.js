@@ -1,19 +1,27 @@
-import React from 'react';
-import styled, { useTheme } from 'styled-components';
+import React, { useMemo } from 'react';
 import { DividedScreen } from './dividedScreen';
-import { StaticImage } from 'gatsby-plugin-image';
 import { PortfolioImage } from '../../layout/shared/PortfolioImage';
 import { projects } from './projectsData';
-export const DisplayProjects = () => {
-  const displayTheProjects = projects.map((project, ind) => (
-    <PortfolioImage
-      key={ind}
-      publicId={project.publicId}
-      altTex={project.altText}
-    />
-  ));
+
+export const DisplayProjects = ({ setSelectedImg, selectedImg }) => {
+  const displayTheProjects = useMemo(
+    () =>
+      projects.map((project) => (
+        <PortfolioImage
+          id={project.id}
+          key={project.id}
+          publicId={project.publicId}
+          altTex={project.altText}
+          selectedImg={project.id == selectedImg ? true : false}
+          setSelectedImg={setSelectedImg}
+        />
+      )),
+    [selectedImg]
+  );
 
   return (
-    <DividedScreen screen="projectDetails">{displayTheProjects}</DividedScreen>
+    <DividedScreen screen="displayedProjects">
+      {displayTheProjects}
+    </DividedScreen>
   );
 };

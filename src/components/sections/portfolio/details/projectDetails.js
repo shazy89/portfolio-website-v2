@@ -1,14 +1,25 @@
 import React from 'react';
-import styled, { useTheme } from 'styled-components';
+import styled from 'styled-components';
 import { DividedScreen } from '../dividedScreen';
-import { StaticImage } from 'gatsby-plugin-image';
 import { projects } from '../projectsData';
-import { PortfolioImage } from '../../../layout/shared/PortfolioImage';
+import { DetailsHeader } from './detailsHeader';
+import { DetailsLinks } from './detailsLinks';
+import { DetailsContent } from './detailsContent';
+export const ProjectDetails = ({ selectedImg }) => {
+  const slectedProject = projects.find((project) => project.id === selectedImg);
 
-export const ProjectDetails = () => {
   return (
     <DividedScreen screen="projectDetails">
-      <h1>More about the project</h1>
+      <DetailsHeader>{slectedProject.name}</DetailsHeader>
+      <DetailsLinks
+        publicId={slectedProject.publicId}
+        webApp={slectedProject.webApp}
+        demo={slectedProject.demo}
+        github={slectedProject.github}
+      />
+      <DetailsContent technologies={slectedProject.technologies}>
+        {slectedProject.info}
+      </DetailsContent>
     </DividedScreen>
   );
 };

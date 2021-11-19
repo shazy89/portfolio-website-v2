@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled, { useTheme } from 'styled-components';
 import { DisplayProjects } from './displayProjects';
 import { ProjectDetails } from './details/projectDetails';
@@ -18,13 +18,17 @@ const ScreenDivider = styled.div`
 `;
 
 export const Portfolio = () => {
+  const [selectedImg, setSelectedImg] = useState(1);
   const theme = useTheme();
 
   return (
     <PortfolioContainer>
-      <ProjectDetails />
+      <ProjectDetails selectedImg={selectedImg} />
       <ScreenDivider color={theme.colors.orange.main} />
-      <DisplayProjects />
+      <DisplayProjects
+        selectedImg={selectedImg}
+        setSelectedImg={setSelectedImg}
+      />
     </PortfolioContainer>
   );
 };
