@@ -8,7 +8,7 @@ const ExtendedImage = styled(Image)`
   cursor: pointer;
   :hover {
     transform: scale(1.02);
-    border-right: 3px solid ${(props) => props.color};
+    border-top: 3px solid ${(props) => props.color};
     border-bottom: 3px solid ${(props) => props.color};
     opacity: 0.8;
   }
@@ -17,7 +17,7 @@ const SelectedImage = styled(Image)`
   transition: all 0.1s ease;
   cursor: pointer;
   transform: scale(1.02);
-  border-right: 3px solid ${(props) => props.color};
+  border-top: 3px solid ${(props) => props.color};
   border-bottom: 3px solid ${(props) => props.color};
   opacity: 0.8;
 `;

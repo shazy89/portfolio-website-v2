@@ -14,10 +14,6 @@ const ScreenProjectDetails = styled.div`
   width: 50%;
   height: 90%;
   padding: 5px;
-  display: flex;
-
-  justify-content: space-evenly;
-  align-items: center;
 `;
 
 export const DividedScreen = ({ children, screen }) => {

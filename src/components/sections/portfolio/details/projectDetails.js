@@ -1,14 +1,16 @@
 import React from 'react';
-
 import { DividedScreen } from '../dividedScreen';
 import { projects } from '../projectsData';
+import { DetailsHeader } from './detailsHeader';
+import { DetailsLinks } from './detailsLinks';
 
 export const ProjectDetails = ({ selectedImg }) => {
   const slected = projects.find((project) => project.id === selectedImg);
-  console.log(slected);
+
   return (
     <DividedScreen screen="projectDetails">
-      <h1>More about the project</h1>
+      <DetailsHeader>{slected.name}</DetailsHeader>
+      <DetailsLinks publicId={slected.publicId} />
     </DividedScreen>
   );
 };
