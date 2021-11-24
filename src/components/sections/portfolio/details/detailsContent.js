@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import styled from 'styled-components';
-import { Spacer } from '../../../spacer/spacer.component';
+import { Spacer } from '../../../spacer/spacerComponent';
 const DetailsContentView = styled.div`
   padding: 10px 35px;
   height: 37%;

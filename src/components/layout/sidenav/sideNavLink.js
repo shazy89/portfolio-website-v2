@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SideNavLink as Link } from '../../../infrastructure/styled/ui/styled.side.nav';
+import { SideNavLink as Link } from '../../../infrastructure/styled/ui/styledSideNav';
 
 export const SideNavLink = ({ children }) => {
   return (

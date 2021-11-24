@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SideNav } from '../../layout/side nav/sideNav';
+import { SideNav } from '../../layout/sidenav/sideNav';
 import { LogoIcon } from './LogoIcon';
 import { HeaderTextPrimary } from './headerTextPrimary';
 import { HeaderTextSecondary } from './headerTextSecondary';
