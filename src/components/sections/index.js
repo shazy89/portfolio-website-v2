@@ -2,8 +2,8 @@ import React from 'react';
 import { Header } from './header/header';
 import { Achievements } from './achievements/achievements';
 import { Section } from '../HORComponents/section';
-import { images } from '../assets/image.links';
-import { Spacer } from '../spacer/spacer.component';
+import { images } from '../assets/imageLinks';
+import { Spacer } from '../spacer/spacerComponent';
 import { Portfolio } from './portfolio/portfolio';
 
 export const HomePage = () => {

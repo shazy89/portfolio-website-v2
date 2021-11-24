@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Text } from '../../../infrastructure/styled/ui/styled.text';
-import { Border } from '../../../infrastructure/styled/ui/styled.border';
-import { Button } from '../../../infrastructure/styled/ui/styled.button';
+import { Text } from '../../../infrastructure/styled/ui/styledText';
+import { Border } from '../../../infrastructure/styled/ui/styledBorder';
+import { Button } from '../../../infrastructure/styled/ui/styledButton';
 
 const TextSecondaryBox = styled.div`
   padding: 1rem;

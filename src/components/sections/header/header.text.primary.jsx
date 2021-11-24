@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text } from '../../../infrastructure/styled/ui/styled.text';
+import { Text } from '../../../infrastructure/styled/ui/styledText';
 import styled, { useTheme } from 'styled-components';
-import { BorderBottom } from '../../../infrastructure/styled/ui/styled.text.border';
+import { BorderBottom } from '../../../infrastructure/styled/ui/styledTextBorder';
 
 const TextPrimaryBox = styled.div`
   width: 50%;

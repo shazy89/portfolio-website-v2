@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SideNav } from '../../layout/side nav/side.nav';
+import { SideNav } from '../../layout/side nav/sideNav';
 import { LogoIcon } from './LogoIcon';
-import { HeaderTextPrimary } from './header.text.primary';
-import { HeaderTextSecondary } from './header.text.secondary';
-import { graphql, useStaticQuery } from 'gatsby';
+import { HeaderTextPrimary } from './headerTextPrimary';
+import { HeaderTextSecondary } from './headerTextSecondary';
+//import { graphql, useStaticQuery } from 'gatsby';
 const HeaderContainer = styled.header`
   height: 100%;
   position: relative;
