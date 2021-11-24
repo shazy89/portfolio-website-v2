@@ -1,6 +1,6 @@
 import React from 'react';
-import { SectionBackground } from '../../infrastructure/styled/styled.section';
-import { SectionContainer } from '../../infrastructure/styled/styled.section.container';
+import { SectionBackground } from '../../infrastructure/styled/styledSection';
+import { SectionContainer } from '../../infrastructure/styled/styledSectionContainer';
 export const Section = ({ backgroundImage, section, children }) => {
   return (
     <SectionBackground section={section} backgroundImage={backgroundImage}>

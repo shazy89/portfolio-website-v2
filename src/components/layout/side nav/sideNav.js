@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import styled, { useTheme } from 'styled-components';
-import { SideNavContainer } from '../../../infrastructure/styled/ui/styled.side.nav';
-import { SideNavLink } from './side.nav.link';
-import { Border } from '../../../infrastructure/styled/ui/styled.border';
+import { SideNavContainer } from '../../../infrastructure/styled/ui/styledSideNav';
+import { SideNavLink } from './sideNavLink';
+import { Border } from '../../../infrastructure/styled/ui/styledBorder';
 import { v4 as uuidv4 } from 'uuid';
 
 const options = ['Resume', 'Works', 'My Story', 'Contact'];
