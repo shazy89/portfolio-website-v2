@@ -5,7 +5,7 @@ import { Section } from '../HORComponents/section';
 import { images } from '../assets/imageLinks';
 import { Spacer } from '../spacer/spacerComponent';
 import { Portfolio } from './portfolio/portfolio';
-
+import { Aboutme } from './aboutme/aboutme';
 export const HomePage = () => {
   return (
     <>
@@ -25,6 +25,9 @@ export const HomePage = () => {
         <Portfolio />
       </Section>
       <Spacer size="xxl" />
+      <Section>
+        <Aboutme />
+      </Section>
     </>
   );
 };
